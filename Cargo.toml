@@ -1,0 +1,16 @@
+[package]
+name = "unsafe-scan"
+version = "0.1.0"
+edition = "2021"
+authors = ["yuekaicn"]
+description = "A zero-dependency CLI that counts and locates `unsafe` code in Rust projects"
+license = "MIT"
+readme = "README.md"
+keywords = ["unsafe", "audit", "static-analysis", "cli"]
+categories = ["command-line-utilities", "development-tools"]
+
+[dependencies]
+
+[[bin]]
+name = "unsafe-scan"
+path = "main.rs"
